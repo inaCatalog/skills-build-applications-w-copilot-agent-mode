@@ -31,3 +31,7 @@ yarn-error.log*
 # Python files
 *.pyc
 __pycache__/
+
+# Exclude MongoDB logs and data
+octofit-tracker/backend/mongodb.log*
+octofit-tracker/backend/data/
